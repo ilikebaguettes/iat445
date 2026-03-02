@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/P1.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/IRL_City.unity
+    guid: d8f84046b5cab0a46b140f4a6c7c9ef2
+  - enabled: 1
+    path: Assets/Scenes/IRL_Bedroom.unity
+    guid: a08ce7637c7de5440be495ce3c51dfc2
+  - enabled: 1
+    path: Assets/Scenes/Book_1.unity
+    guid: 13331cc685844ce40b81d0dc24c2c565
+  - enabled: 1
+    path: Assets/Scenes/SimplePoly City - Low Poly Assets_Demo Scene.unity
+    guid: 7e6d3f4e5d896154ab4438845532ac3e
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c3c788228f5f8b74fa8d408ed785d911, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 98dfa3c88cb1b5f4699c97ec30182af1, type: 2}
+  m_UseUCBPForAssetBundles: 0
