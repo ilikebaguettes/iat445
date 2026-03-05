@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/City.unity
     guid: 7e6d3f4e5d896154ab4438845532ac3e
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c3c788228f5f8b74fa8d408ed785d911, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 98dfa3c88cb1b5f4699c97ec30182af1, type: 2}
   m_UseUCBPForAssetBundles: 0
