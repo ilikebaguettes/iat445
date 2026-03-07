@@ -157,7 +157,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160352850}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04bb2a2da7e998749b10bfcddbdf535d, type: 3}
   m_Name: 
@@ -500,6 +500,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1928987253416497259, guid: 84ec8cb7d69ed844c8a816809bededa0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2982949832755509557, guid: 84ec8cb7d69ed844c8a816809bededa0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -550,6 +555,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5684856675767855814, guid: 84ec8cb7d69ed844c8a816809bededa0,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6392031991997174391, guid: 84ec8cb7d69ed844c8a816809bededa0,
         type: 3}
       propertyPath: m_TrackingStateInput.m_Action.m_Name
@@ -572,7 +582,31 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 160352852}
+    - targetCorrespondingSourceObject: {fileID: 7265648762466401385, guid: 84ec8cb7d69ed844c8a816809bededa0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 621572369}
   m_SourcePrefab: {fileID: 100100000, guid: 84ec8cb7d69ed844c8a816809bededa0, type: 3}
+--- !u!1 &621572368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7265648762466401385, guid: 84ec8cb7d69ed844c8a816809bededa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 621572367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &621572369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621572368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bb2a2da7e998749b10bfcddbdf535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerScaler
+  duration: 10
+  targetScale: 0.01
 --- !u!1 &1046984275
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,7 +1302,7 @@ Transform:
   m_GameObject: {fileID: 1702788620}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.177, y: 0.45, z: -0.99}
+  m_LocalPosition: {x: 6.177, y: 0.4, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 2.4482}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1773,6 +1807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019471957}
   - component: {fileID: 2019471958}
+  - component: {fileID: 2019471959}
   m_Layer: 30
   m_Name: CollisionBox
   m_TagString: Player
@@ -1816,6 +1851,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2019471959
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019471956}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1001 &2144712581
 PrefabInstance:
   m_ObjectHideFlags: 0
