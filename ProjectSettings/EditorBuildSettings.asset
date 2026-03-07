@@ -8,12 +8,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sample.unity
     guid: eccb2bc76074b2849b626b75e749890d
   - enabled: 1
     path: Assets/Scenes/Wheat Field.unity
     guid: 330179721d32a07468359bbe42f7de1a
+  - enabled: 1
+    path: Assets/Scenes/Swimming Pool.unity
+    guid: 43aed2ef339f27945b1172a5fbe9b783
+  - enabled: 1
+    path: Assets/Scenes/Laundromat.unity
+    guid: d1073ebef5726154a8b704306e0c0267
+  - enabled: 1
+    path: Assets/Scenes/School.unity
+    guid: 155826f994dba5a43af998ec7c5ef95d
+  - enabled: 1
+    path: Assets/Scenes/Grass Field.unity
+    guid: e3654d8a8c768d24d9c3b58eeff94f40
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2238d457089b9494896515a25debf01c,
       type: 2}

@@ -3235,6 +3235,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1928608166160100158, guid: 49e2fbde9521b4341879174df5a51b64,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 1879048247
+      objectReference: {fileID: 0}
     - target: {fileID: 4662602068711944974, guid: 49e2fbde9521b4341879174df5a51b64,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -4034,6 +4039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 6960627886175621283, guid: fcac0c3f142ea3742a0565751dec41de,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 1879048247
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
