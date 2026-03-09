@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerScaler : MonoBehaviour
 {
     public float duration;
-    public float targetScale; 
+    public float targetScale;
 
     public void StartScaling()
     {
@@ -26,11 +26,5 @@ public class PlayerScaler : MonoBehaviour
         }
 
         transform.localScale = endScale;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
