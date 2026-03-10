@@ -1,0 +1,348 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github Repositories\\iat445\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|d:\\github repositories\\iat445\\assets\\scripts\\playerscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\assets\\3d models\\polytope studio\\lowpoly_environments\\sources\\shaders\\pt_vegetation_plants_shader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\3d models\\polytope studio\\lowpoly_environments\\sources\\shaders\\pt_vegetation_plants_shader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\assets\\3d models\\polytope studio\\lowpoly_environments\\sources\\shaders\\pt_vegetation_opaque_shader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\3d models\\polytope studio\\lowpoly_environments\\sources\\shaders\\pt_vegetation_opaque_shader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github Repositories\\iat445\\Assets\\Packages\\Point-Grass-Renderer\\Runtime\\Scripts\\Effects\\PointGrassWind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Packages\\Point-Grass-Renderer\\Runtime\\Scripts\\Effects\\PointGrassWind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Locomotion\\Comfort\\TunnelingVignetteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Locomotion\\Comfort\\TunnelingVignetteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\assets\\xri_examples\\global\\scripts\\locomotionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\xri_examples\\global\\scripts\\locomotionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\assets\\xri_examples\\socketinteractors\\scripts\\xrgridsocketinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\xri_examples\\socketinteractors\\scripts\\xrgridsocketinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\assets\\scripts\\triggerscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\assets\\xri_examples\\ui_3d\\scripts\\xrgripbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\xri_examples\\ui_3d\\scripts\\xrgripbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github Repositories\\iat445\\Assets\\Scripts\\TriggerShoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TriggerShoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\SettingsProvider\\XRInteractionEditorSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\SettingsProvider\\XRInteractionEditorSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF256B3A-DD27-B0B3-A45C-A8AD0E94CE66}|Assembly-CSharp-Editor.csproj|D:\\Github Repositories\\iat445\\assets\\ignitecoders\\simple water shader\\info\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF256B3A-DD27-B0B3-A45C-A8AD0E94CE66}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\ignitecoders\\simple water shader\\info\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\assets\\scripts\\tutorialpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\assets\\scripts\\gamestartmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamestartmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Interaction\\XRInteractionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Interaction\\XRInteractionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\XRMainCameraFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\XRMainCameraFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Inputs\\InputActionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Inputs\\InputActionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github Repositories\\iat445\\Assets\\Scripts\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerInteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github Repositories\\iat445\\Assets\\Scripts\\InputManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InputManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PT_Vegetation_Plants_Shader.shader",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\3D Models\\Polytope Studio\\Lowpoly_Environments\\Sources\\Shaders\\PT_Vegetation_Plants_Shader.shader",
+              "RelativeDocumentMoniker": "Assets\\3D Models\\Polytope Studio\\Lowpoly_Environments\\Sources\\Shaders\\PT_Vegetation_Plants_Shader.shader",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\3D Models\\Polytope Studio\\Lowpoly_Environments\\Sources\\Shaders\\PT_Vegetation_Plants_Shader.shader",
+              "RelativeToolTip": "Assets\\3D Models\\Polytope Studio\\Lowpoly_Environments\\Sources\\Shaders\\PT_Vegetation_Plants_Shader.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-03-09T11:16:11.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PointGrassWind.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\Packages\\Point-Grass-Renderer\\Runtime\\Scripts\\Effects\\PointGrassWind.cs",
+              "RelativeDocumentMoniker": "Assets\\Packages\\Point-Grass-Renderer\\Runtime\\Scripts\\Effects\\PointGrassWind.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\Packages\\Point-Grass-Renderer\\Runtime\\Scripts\\Effects\\PointGrassWind.cs",
+              "RelativeToolTip": "Assets\\Packages\\Point-Grass-Renderer\\Runtime\\Scripts\\Effects\\PointGrassWind.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T11:00:59.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TunnelingVignetteController.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Locomotion\\Comfort\\TunnelingVignetteController.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Locomotion\\Comfort\\TunnelingVignetteController.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Locomotion\\Comfort\\TunnelingVignetteController.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Locomotion\\Comfort\\TunnelingVignetteController.cs",
+              "ViewState": "AgIAAL0BAAAAAAAAAAAAAM4BAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T10:12:54.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TriggerScene.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\TriggerScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerScene.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\TriggerScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TriggerScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:07:03.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "XRInteractionEditorSettings.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\SettingsProvider\\XRInteractionEditorSettings.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\SettingsProvider\\XRInteractionEditorSettings.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\SettingsProvider\\XRInteractionEditorSettings.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\SettingsProvider\\XRInteractionEditorSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T05:45:55.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReadmeEditor.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
+              "RelativeToolTip": "Assets\\IgniteCoders\\Simple Water Shader\\Info\\Scripts\\Editor\\ReadmeEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T05:21:27.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerScaler.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\PlayerScaler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScaler.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\PlayerScaler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScaler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T10:48:41.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PT_Vegetation_Opaque_Shader.shader",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\3D Models\\Polytope Studio\\Lowpoly_Environments\\Sources\\Shaders\\PT_Vegetation_Opaque_Shader.shader",
+              "RelativeDocumentMoniker": "Assets\\3D Models\\Polytope Studio\\Lowpoly_Environments\\Sources\\Shaders\\PT_Vegetation_Opaque_Shader.shader",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\3D Models\\Polytope Studio\\Lowpoly_Environments\\Sources\\Shaders\\PT_Vegetation_Opaque_Shader.shader",
+              "RelativeToolTip": "Assets\\3D Models\\Polytope Studio\\Lowpoly_Environments\\Sources\\Shaders\\PT_Vegetation_Opaque_Shader.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-03-09T11:11:33.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TutorialPanel.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\TutorialPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialPanel.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\TutorialPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialPanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T10:39:39.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameStartMenu.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\GameStartMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameStartMenu.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\GameStartMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameStartMenu.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T08:03:33.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SceneTransitionManager.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\SceneTransitionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransitionManager.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\SceneTransitionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneTransitionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T08:02:05.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "XRGridSocketInteractor.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\XRI_Examples\\SocketInteractors\\Scripts\\XRGridSocketInteractor.cs",
+              "RelativeDocumentMoniker": "Assets\\XRI_Examples\\SocketInteractors\\Scripts\\XRGridSocketInteractor.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\XRI_Examples\\SocketInteractors\\Scripts\\XRGridSocketInteractor.cs",
+              "RelativeToolTip": "Assets\\XRI_Examples\\SocketInteractors\\Scripts\\XRGridSocketInteractor.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T05:49:56.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocomotionManager.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\XRI_Examples\\Global\\Scripts\\LocomotionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\XRI_Examples\\Global\\Scripts\\LocomotionManager.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\XRI_Examples\\Global\\Scripts\\LocomotionManager.cs",
+              "RelativeToolTip": "Assets\\XRI_Examples\\Global\\Scripts\\LocomotionManager.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwG0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T07:29:01.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "XRGripButton.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\XRI_Examples\\UI_3D\\Scripts\\XRGripButton.cs",
+              "RelativeDocumentMoniker": "Assets\\XRI_Examples\\UI_3D\\Scripts\\XRGripButton.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\XRI_Examples\\UI_3D\\Scripts\\XRGripButton.cs",
+              "RelativeToolTip": "Assets\\XRI_Examples\\UI_3D\\Scripts\\XRGripButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T07:35:15.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TriggerShoe.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\TriggerShoe.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerShoe.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\TriggerShoe.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TriggerShoe.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:07:58.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "XRMainCameraFactory.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\XRMainCameraFactory.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\XRMainCameraFactory.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\XRMainCameraFactory.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Editor\\XRMainCameraFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T07:09:42.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "XRInteractionManager.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Interaction\\XRInteractionManager.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Interaction\\XRInteractionManager.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Interaction\\XRInteractionManager.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Interaction\\XRInteractionManager.cs",
+              "ViewState": "AgIAAL4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:47:04.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlayerInteraction.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\PlayerInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteraction.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\PlayerInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInteraction.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T14:38:28.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InputActionManager.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Inputs\\InputActionManager.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Inputs\\InputActionManager.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Inputs\\InputActionManager.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@5f736ad4ccd8\\Runtime\\Inputs\\InputActionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T14:23:14.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\Assets\\Scripts\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T14:22:11.375Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
