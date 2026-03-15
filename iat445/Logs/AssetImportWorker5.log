@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Shiro" at "2026-03-15T04:22:10.9657839Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16171 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Shiro" at "2026-03-15T08:29:20.6415948Z"
 Process architecture: x64
-Date: 2026-03-15T04:22:10Z
+Date: 2026-03-15T08:29:20Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ F:/Unity/iat445/iat445
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-55899
+52894
 -licensingIpc
 LicenseClient-Shiro
 -job-worker-count
@@ -67,12 +67,12 @@ F:/Unity/iat445/iat445
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [28900]  Target information:
+Player connection [47600]  Target information:
 
-Player connection [28900]  * "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 2635664159 [EditorId] 2635664159 [Version] 1048832 [Id] WindowsEditor(7,Shiro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47600]  * "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 2535969530 [EditorId] 2535969530 [Version] 1048832 [Id] WindowsEditor(7,Shiro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28900] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28900] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [47600] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [47600] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 139.18 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 106.64 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -100,21 +100,21 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              500e53a212254559b21fd88c13562ceb
+  Session Id:              38c682bc57d8476fb5538017080b3887
   Correlation Id:          2cc775fc258f6406c566cb3e6aa0ce64
-  External correlation Id: 3751903659540434289
+  External correlation Id: 2798443724466782493
   Machine Id:              n4nzmS/RRhpfUkuB4P3ahyy7hgs=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Shiro" (connect: 0.00s, validation: 0.00s, handshake: 5.78s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Shiro-notifications" at "2026-03-15T04:22:16.7501366Z"
-[Licensing::Module] Licensing Background thread has ended after 5.79s
-[Licensing::Module] Licensing is initialized (took 1.80s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Shiro" (connect: 0.00s, validation: 0.00s, handshake: 3.91s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Shiro-notifications" at "2026-03-15T08:29:24.5551876Z"
+[Licensing::Module] Licensing Background thread has ended after 3.91s
+[Licensing::Module] Licensing is initialized (took 0.84s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18968356356170-phuongdangjapan123-UnityProStuXXXX
@@ -122,42 +122,42 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/E
   Type: Assigned
   Expiration: 2026-12-13T00:22:22Z
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 1.808073 seconds.
-- Loaded All Assemblies, in  4.506 seconds
+Registered in 0.851235 seconds.
+- Loaded All Assemblies, in  1.922 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 756 ms
+Android Extension - Scanning For ADB Devices 924 ms
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.183 seconds
-Domain Reload Profiling: 6683ms
-	BeginReloadAssembly (1605ms)
+- Finished resetting the current domain, in  1.952 seconds
+Domain Reload Profiling: 3870ms
+	BeginReloadAssembly (499ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (158ms)
-	RebuildNativeTypeToScriptingClass (73ms)
-	initialDomainReloadingComplete (2007ms)
-	LoadAllAssembliesAndSetupDomain (656ms)
-		LoadAssemblies (1578ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (955ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (479ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (648ms)
-			TypeCache.Refresh (642ms)
-				TypeCache.ScanAssembly (537ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (278ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (2184ms)
+	FinalizeReload (1953ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2014ms)
+		SetupLoadedEditorAssemblies (1852ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1108ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (376ms)
-			ProcessInitializeOnLoadAttributes (352ms)
-			ProcessInitializeOnLoadMethodAttributes (166ms)
+			InitializePlatformSupportModulesInManaged (1101ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (259ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -167,8 +167,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  2.697 seconds
-Refreshing native plugins compatible for Editor in 33.61 ms, found 8 plugins.
+- Loaded All Assemblies, in  1.511 seconds
+Refreshing native plugins compatible for Editor in 12.87 ms, found 8 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -183,39 +183,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.994 seconds
-Domain Reload Profiling: 5682ms
-	BeginReloadAssembly (542ms)
+- Finished resetting the current domain, in  1.576 seconds
+Domain Reload Profiling: 3079ms
+	BeginReloadAssembly (371ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (95ms)
-	RebuildCommonClasses (112ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (1888ms)
-		LoadAssemblies (1093ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (975ms)
+		LoadAssemblies (740ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1100ms)
-			TypeCache.Refresh (752ms)
-				TypeCache.ScanAssembly (699ms)
-			BuildScriptInfoCaches (271ms)
-			ResolveRequiredComponents (62ms)
-	FinalizeReload (2995ms)
+		AnalyzeDomain (460ms)
+			TypeCache.Refresh (314ms)
+				TypeCache.ScanAssembly (290ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1576ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2376ms)
+		SetupLoadedEditorAssemblies (1270ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (746ms)
-			ProcessInitializeOnLoadAttributes (926ms)
-			ProcessInitializeOnLoadMethodAttributes (641ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (360ms)
+			ProcessInitializeOnLoadAttributes (549ms)
+			ProcessInitializeOnLoadMethodAttributes (330ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -252,397 +252,13 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
-Refreshing native plugins compatible for Editor in 36.52 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 17.23 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6276 unused Assets / (4.6 MB). Loaded Objects now: 7093.
-Memory consumption went from 150.4 MB to 145.8 MB.
-Total: 92.046400 ms (FindLiveObjects: 1.687300 ms CreateObjectMapping: 1.726200 ms MarkObjects: 13.754700 ms  DeleteObjects: 74.876500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 44455.891625 seconds.
-  path: Assets/VRTemplateAssets/Prefabs/Interactables/Sphere Interactable.prefab
-  artifactKey: Guid(753505d367f39d04c8ef944e9491a149) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Prefabs/Interactables/Sphere Interactable.prefab using Guid(753505d367f39d04c8ef944e9491a149) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0210dca36285c01c255fa36d5e6ff068') in 1.2883475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/VRTemplateAssets/Materials/Primitive/Interactables 3.mat
-  artifactKey: Guid(cf6ddc7949dbe3c4992fd95474f486f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Materials/Primitive/Interactables 3.mat using Guid(cf6ddc7949dbe3c4992fd95474f486f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68db48748805e70b7e88ba72e2ebf9f3') in 0.1132996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/AffordanceThemes/PinchPointLocalTransformOffset.asset
-  artifactKey: Guid(2826cece951f71642a19da5a2080a27c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/AffordanceThemes/PinchPointLocalTransformOffset.asset using Guid(2826cece951f71642a19da5a2080a27c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '470df8fac7a64ce85c19943025270ea1') in 0.1148199 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/DatumPresets/Menu Hands Follow Preset.asset
-  artifactKey: Guid(15088c60ea1e00448a95ebaef96316da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/DatumPresets/Menu Hands Follow Preset.asset using Guid(15088c60ea1e00448a95ebaef96316da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '462b4c96e69d6540e74e7d0f8ec9daf3') in 0.0667262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/VRTemplateAssets/Models/Primitives/Torus.fbx
-  artifactKey: Guid(9a13b94cace2a4d78ac94a0ed0a88843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Models/Primitives/Torus.fbx using Guid(9a13b94cace2a4d78ac94a0ed0a88843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd38deda9c54da3591d5e9257e1ede3ca') in 0.2123903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/VRTemplateAssets/Prefabs/Controller/Left Controller.prefab
-  artifactKey: Guid(aa14702dd234c8d4fb9ac0df97715ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Prefabs/Controller/Left Controller.prefab using Guid(aa14702dd234c8d4fb9ac0df97715ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8af5b0d349d0ae395bd8812545939341') in 0.0240729 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Samples/XR Hands/1.7.1/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef
-  artifactKey: Guid(60e576d96416ac94182fe26f63acf9ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Hands/1.7.1/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef using Guid(60e576d96416ac94182fe26f63acf9ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f45b45f734e46831be36aa358c825098') in 0.0177923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/VRTemplateAssets/Prefabs/UI/Spatial Panel Scroll.prefab
-  artifactKey: Guid(085ce58b196caa446a8545c9dd388793) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Prefabs/UI/Spatial Panel Scroll.prefab using Guid(085ce58b196caa446a8545c9dd388793) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbfa63bc2542e7ea4286ad418570f19d') in 0.3297608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/VRTemplateAssets/Models/Environment/Totem2.fbx
-  artifactKey: Guid(cec1aebf75b74914097378398b58a48e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Models/Environment/Totem2.fbx using Guid(cec1aebf75b74914097378398b58a48e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cfba1e8284d3dfbaf428bab55b306c37') in 0.0653203 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Settings/Project Configuration/Performance URP Config.asset
-  artifactKey: Guid(fd42a132493b1f143a4963adcd530ef1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Project Configuration/Performance URP Config.asset using Guid(fd42a132493b1f143a4963adcd530ef1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '797337a539ed30464d8ceaaf6828dc96') in 0.1482869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/VRTemplateAssets/Sprites/Icons/Scroll Right.png
-  artifactKey: Guid(639b00403a9c1cf4884b495c00168283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Sprites/Icons/Scroll Right.png using Guid(639b00403a9c1cf4884b495c00168283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2a34791629858337378d1de2a42be5d') in 0.148363 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
-  artifactKey: Guid(4b3de149e50ea0c4f8ad04c79b9f12ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(4b3de149e50ea0c4f8ad04c79b9f12ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae366136d08d05e32ceab6178117c92b') in 0.0364521 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Hands Variant.prefab
-  artifactKey: Guid(77e7c27b2c5525e4aa8cc9f99d654486) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Hands Variant.prefab using Guid(77e7c27b2c5525e4aa8cc9f99d654486) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9de1dc74de525506b08291bffc2cc45') in 0.4620948 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2181
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/AffordanceThemes/PokeSphereInteraction.asset
-  artifactKey: Guid(c2712227db89c5142adad58b143bf039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/AffordanceThemes/PokeSphereInteraction.asset using Guid(c2712227db89c5142adad58b143bf039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24059ddd9df1e5d12f534a8cc7daf762') in 0.0250602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat
-  artifactKey: Guid(61d033f3a51f40647a5458ea14f3b4af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat using Guid(61d033f3a51f40647a5458ea14f3b4af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5014a4038f6e819783093e65c1b9890') in 0.0419015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Shaders/Unlit_Fresnel.shadergraph
-  artifactKey: Guid(e19b5bb6cb8e91e43b1b5d81a069296f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Shaders/Unlit_Fresnel.shadergraph using Guid(e19b5bb6cb8e91e43b1b5d81a069296f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6bba1af8ec681d132141830c9436e614') in 0.0533384 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph
-  artifactKey: Guid(740445f1490c01e4b8feacf8d9ab5e7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph using Guid(740445f1490c01e4b8feacf8d9ab5e7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d343002cfe305044ae9921c4ae9b089') in 0.03083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Models/Primitive_Cylinder.fbx
-  artifactKey: Guid(9e1dc1c14313460d872de39e35129b39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Models/Primitive_Cylinder.fbx using Guid(9e1dc1c14313460d872de39e35129b39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4dcafa2054d0969dbc320ee2f082e6e3') in 0.0491919 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/DatumPresets/Under Watch Hands Follow Preset.asset
-  artifactKey: Guid(5c3063cefe11749438f60126cef83288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/DatumPresets/Under Watch Hands Follow Preset.asset using Guid(5c3063cefe11749438f60126cef83288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2dc10ac24647ef4547dabdc633d8f78e') in 0.0254247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/FrameOutline.mat
-  artifactKey: Guid(54f7c59213ac02b4d9f00104348dbac3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Materials/FrameOutline.mat using Guid(54f7c59213ac02b4d9f00104348dbac3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'edfa50f3f5cc6f57e5a8e57ae6113a64') in 0.0202314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Models/Frame.fbx
-  artifactKey: Guid(171affcd2d7ddf545ae966acd2de57c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Models/Frame.fbx using Guid(171affcd2d7ddf545ae966acd2de57c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd38aead95985fea65e8c279d364273d6') in 0.040323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Prefabs/LeftHandAndroidXRVisual.prefab
-  artifactKey: Guid(c596c6eccbc90fe48949f87e583ce552) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Prefabs/LeftHandAndroidXRVisual.prefab using Guid(c596c6eccbc90fe48949f87e583ce552) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cbf4d40512c2c034e73fb688b6443f8') in 0.0453963 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/FresnelHighlight.mat
-  artifactKey: Guid(f5ccd52dc494e054fbe7d7161dcabe25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/FresnelHighlight.mat using Guid(f5ccd52dc494e054fbe7d7161dcabe25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95fb351fc43bc034992b0c55a423685d') in 0.0221019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Permissions Manager.prefab
-  artifactKey: Guid(faf53399145e13c4b992b14c97b5f4c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Permissions Manager.prefab using Guid(faf53399145e13c4b992b14c97b5f4c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f745607d3785e57d07a5055100d56cd2') in 0.0254946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Prefabs/SimpleSocket.prefab
-  artifactKey: Guid(aec71f91a8da27d418aa44bd0c543f9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Prefabs/SimpleSocket.prefab using Guid(aec71f91a8da27d418aa44bd0c543f9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a67b6d19f1fe316dd75c4f7d53d4737') in 0.0916155 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat
-  artifactKey: Guid(bbb56ac3cf3c61a46ab3887c0fdbda8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat using Guid(bbb56ac3cf3c61a46ab3887c0fdbda8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a4e96b9693c798a5136ab4b796c7f58') in 0.0345333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx
-  artifactKey: Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb8cc0ef72c19e4f9f4c400ae6e1fc04') in 0.0348419 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ObjectResetPlane.cs
-  artifactKey: Guid(54ce4268a4182384da360e6e2654d3a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ObjectResetPlane.cs using Guid(54ce4268a4182384da360e6e2654d3a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2a41907b615e85faa99967b5b125b28') in 0.0253301 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png
-  artifactKey: Guid(a85d80c1edb5d2f458d42e79f78055b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png using Guid(a85d80c1edb5d2f458d42e79f78055b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7cab7161a42d447e7fe0586077914a5') in 0.0373482 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/InteractionAffordance.prefab
-  artifactKey: Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/InteractionAffordance.prefab using Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bd5442a0358c0e99cda21e6444b09c2') in 0.0458033 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs
-  artifactKey: Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs using Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a582c921a5c9de309442976ba3c195a5') in 0.0207454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png
-  artifactKey: Guid(affa059594145a843b81788037b4ee21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png using Guid(affa059594145a843b81788037b4ee21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '290c6b2565d0ec031a4c049740382df2') in 0.042194 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab
-  artifactKey: Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab using Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'edc3fd4abf34b0dbd04fcb4a53a11478') in 0.453283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Affordances/LargeScale.asset
-  artifactKey: Guid(d47a7e28eb1851943b2b99ded7acba3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Affordances/LargeScale.asset using Guid(d47a7e28eb1851943b2b99ded7acba3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2d4ca619df33c2af60b67c88e4e872d') in 0.0187623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/PokeBlendShapeAnimator.cs
-  artifactKey: Guid(78373ff495dc8234887e0cbdc7140022) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/PokeBlendShapeAnimator.cs using Guid(78373ff495dc8234887e0cbdc7140022) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c175cb5bc4a4a13cd923e44048102b69') in 0.0220034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab
-  artifactKey: Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab using Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8691e746cb0d57f98f962cbe36392c63') in 0.0530581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/Climb/Single Floor Ladder.prefab
-  artifactKey: Guid(1f62bdd0e59688d4bb754afe89fa2f5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/Climb/Single Floor Ladder.prefab using Guid(1f62bdd0e59688d4bb754afe89fa2f5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36bb13868ba74ae49137cd6bd53db0a1') in 0.0577095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 198
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Subgraphs/FadeFromCenter.shadersubgraph
-  artifactKey: Guid(42ba907d16ca12e4ea44090883108545) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Hands Interaction Demo/Shaders/Subgraphs/FadeFromCenter.shadersubgraph using Guid(42ba907d16ca12e4ea44090883108545) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70e17221766b42b0d012959a81e4e6e3') in 0.047236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Presets/XRI Default XR UI Input Module.preset
-  artifactKey: Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Presets/XRI Default XR UI Input Module.preset using Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '103647831b8cb85fe9e3774e04e476ab') in 0.050537 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab
-  artifactKey: Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab using Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '179173b19d3fad8549c168026436d47f') in 0.0368468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Settings/Project Configuration/SampleScene.scenetemplate
-  artifactKey: Guid(e88974e7ea90fb046bb078f12073588b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Project Configuration/SampleScene.scenetemplate using Guid(e88974e7ea90fb046bb078f12073588b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6bc04aaa1361066e69d7c4521646e95e') in 0.6304313 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4504
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/Telport Area.mat
-  artifactKey: Guid(be1e10ce8a6f8cc4fb08d11c7f722469) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Materials/Telport Area.mat using Guid(be1e10ce8a6f8cc4fb08d11c7f722469) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3429c0dacf2fd2f0b30ca7cb9db917a') in 0.0215595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab
-  artifactKey: Guid(56686f82f64b0af4688a89676403a500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab using Guid(56686f82f64b0af4688a89676403a500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a67cacbceb198ee5bde674ce635678fe') in 0.0946328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/UI/ModalSingleButton.prefab
-  artifactKey: Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/DemoSceneAssets/Prefabs/UI/ModalSingleButton.prefab using Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5c9807277cfb87b89876cedfc6ffba4') in 0.2099751 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
-  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1efd2e28214c1605ffbc708a893c3692') in 0.0249062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/VRTemplateAssets/Themes/BlasterAudioAffordanceTheme.asset
-  artifactKey: Guid(3f422fdb893e1194db386762cdf93e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Themes/BlasterAudioAffordanceTheme.asset using Guid(3f422fdb893e1194db386762cdf93e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e2eb869155ee69a362f2a506eaa8c19') in 0.0316128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
-  artifactKey: Guid(a3fde713df4d99042a0403c4be9eea32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Samples/XR Interaction Toolkit/3.3.0/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab using Guid(a3fde713df4d99042a0403c4be9eea32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d81a4187472086335cdf1455f60a271') in 0.0254492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/VRTemplateAssets/Materials/Primitive/Interactables.mat
-  artifactKey: Guid(377a24320b3adeb438edc10508f4ced8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VRTemplateAssets/Materials/Primitive/Interactables.mat using Guid(377a24320b3adeb438edc10508f4ced8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a119ef1fb66d3d10bb37ca8c967480e0') in 0.0346464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+Unloading 6276 unused Assets / (4.0 MB). Loaded Objects now: 7100.
+Memory consumption went from 152.4 MB to 148.4 MB.
+Total: 51.657300 ms (FindLiveObjects: 1.339400 ms CreateObjectMapping: 1.860800 ms MarkObjects: 41.636900 ms  DeleteObjects: 6.817500 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
