@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\Github Repositories\\iat445\\iat445\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|d:\\github repositories\\iat445\\iat445\\assets\\scripts\\playerscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|d:\\github repositories\\iat445\\iat445\\assets\\vhs\\webcam\\webcamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\vhs\\webcam\\webcamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\iat445\\assets\\vhs\\posteffects\\rgbshift\\rgbshifteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\vhs\\posteffects\\rgbshift\\rgbshifteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\iat445\\assets\\scripts\\playerscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|d:\\github repositories\\iat445\\iat445\\assets\\scripts\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|D:\\Github Repositories\\iat445\\iat445\\assets\\scripts\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9762B07C-54AC-71EA-3F49-85C30702739D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,6 +39,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WebCamController.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\iat445\\Assets\\VHS\\WebCam\\WebCamController.cs",
+              "RelativeDocumentMoniker": "Assets\\VHS\\WebCam\\WebCamController.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\iat445\\Assets\\VHS\\WebCam\\WebCamController.cs",
+              "RelativeToolTip": "Assets\\VHS\\WebCam\\WebCamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:46:58.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RGBShiftEffect.cs",
+              "DocumentMoniker": "D:\\Github Repositories\\iat445\\iat445\\Assets\\VHS\\PostEffects\\RGBShift\\RGBShiftEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\VHS\\PostEffects\\RGBShift\\RGBShiftEffect.cs",
+              "ToolTip": "D:\\Github Repositories\\iat445\\iat445\\Assets\\VHS\\PostEffects\\RGBShift\\RGBShiftEffect.cs",
+              "RelativeToolTip": "Assets\\VHS\\PostEffects\\RGBShift\\RGBShiftEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:31:56.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerScaler.cs",
               "DocumentMoniker": "D:\\Github Repositories\\iat445\\iat445\\Assets\\Scripts\\PlayerScaler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScaler.cs",
@@ -38,12 +71,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerScaler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T03:27:51.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T03:27:51.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SceneChange.cs",
               "DocumentMoniker": "D:\\Github Repositories\\iat445\\iat445\\Assets\\Scripts\\SceneChange.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneChange.cs",
@@ -51,12 +83,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneChange.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T05:54:16.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T05:54:16.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SceneTransition.cs",
               "DocumentMoniker": "D:\\Github Repositories\\iat445\\iat445\\Assets\\Scripts\\SceneTransition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransition.cs",
@@ -67,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FadeScreen.cs",
               "DocumentMoniker": "D:\\Github Repositories\\iat445\\iat445\\Assets\\Scripts\\FadeScreen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FadeScreen.cs",
