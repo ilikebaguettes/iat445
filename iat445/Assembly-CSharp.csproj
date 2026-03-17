@@ -1211,8 +1211,8 @@
     <ProjectReference Include="Unity.XR.Hands.Analytics.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj" />
     <ProjectReference Include="Unity.Timeline.csproj" />
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj" />
     <ProjectReference Include="Unity.Searcher.Editor.csproj" />
     <ProjectReference Include="Unity.XR.CoreUtils.csproj" />
     <ProjectReference Include="Unity.Burst.Editor.csproj" />

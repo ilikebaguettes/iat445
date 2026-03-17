@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1440
     height: 785
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -617,18 +617,17 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 80652
-    - m_Data: 80658
-    - m_Data: 83020
-    - m_Data: 83040
-    - m_Data: 84098
-    - m_Data: 84222
-    - m_Data: 84660
-    - m_Data: 84716
-    - m_Data: 84728
-    - m_Data: 84730
-    - m_Data: 84736
-    - m_Data: 89522
+    - m_Data: 846
+    - m_Data: 48350
+    - m_Data: 48352
+    - m_Data: 48354
+    - m_Data: 48356
+    - m_Data: 48362
+    - m_Data: 48364
+    - m_Data: 48366
+    - m_Data: 48846
+    - m_Data: 48934
+    - m_Data: 58662
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -663,18 +662,17 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 80652
-    - m_Data: 80658
-    - m_Data: 83020
-    - m_Data: 83040
-    - m_Data: 84098
-    - m_Data: 84222
-    - m_Data: 84660
-    - m_Data: 84716
-    - m_Data: 84728
-    - m_Data: 84730
-    - m_Data: 84736
-    - m_Data: 89522
+    - m_Data: 846
+    - m_Data: 48350
+    - m_Data: 48352
+    - m_Data: 48354
+    - m_Data: 48356
+    - m_Data: 48362
+    - m_Data: 48364
+    - m_Data: 48366
+    - m_Data: 48846
+    - m_Data: 48934
+    - m_Data: 58662
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -829,7 +827,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: -82540
+      - m_Data: 48158
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs: []
@@ -1219,12 +1217,12 @@ MonoBehaviour:
       displayed: 1
       id: unity-tool-contexts-toolbar
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":-298.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":2,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":2.0,"y":47.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: -298}
+      snapOffset: {x: 2, y: 47}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 2
+      snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -1358,11 +1356,11 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 1
       id: UnityEditor.ProBuilder.MenuActionSettingsOverlay
-      index: 16
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":541.0,"y":410.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      index: 14
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":541.0,"y":406.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 541, y: 410}
+      snapOffset: {x: 541, y: 406}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
@@ -1389,9 +1387,9 @@ MonoBehaviour:
       scrollOffset: 0
     m_DynamicPanelContainerData:
     - containerId: overlay-dynamic-panel--left
-      width: 56
+      width: 162.5
       saveData:
-        state: 0
+        state: 1
         overlayData:
         - overlayId: unity-tool-contexts-toolbar
           metaData:
@@ -1414,7 +1412,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.517044, y: 7.9756756, z: -10.785748}
+    m_Target: {x: 1.0523295, y: 5.034893, z: -8.117799}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
@@ -1462,11 +1460,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0676728, y: -0.04935773, z: 0.0034735193, w: 0.9965532}
+    m_Target: {x: 0.052952964, y: 0.22459508, z: -0.011962276, w: 0.9730335}
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 15.488544
+    m_Target: 8.918234
     speed: 2
     m_Value: 10
   m_Ortho:
