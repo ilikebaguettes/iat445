@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 47
+  controlID: 26
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -564,19 +564,13 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -314858
-      - m_Data: -314848
-      - m_Data: -43456
-      - m_Data: -35038
-      - m_Data: -21590
-      - m_Data: -19638
-      - m_Data: -19446
-      - m_Data: -17710
+      - m_Data: -1338
       - m_Data: -1298
+      - m_Data: 46584
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Instax100_Mesh
-        m_OriginalName: Instax100_Mesh
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -584,10 +578,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: -314848
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 8}
@@ -719,23 +713,24 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 46906
-    - m_Data: 46908
-    - m_Data: 46910
-    - m_Data: 46912
-    - m_Data: 46914
-    - m_Data: 46916
-    - m_Data: 46918
-    - m_Data: 46920
-    - m_Data: 46922
-    - m_Data: 46924
-    - m_Data: 46926
-    - m_Data: 46928
-    - m_Data: 46930
-    - m_Data: 46932
-    - m_Data: 46934
-    - m_Data: 46936
-    - m_Data: 46938
+    - m_Data: 47050
+    - m_Data: 47052
+    - m_Data: 47054
+    - m_Data: 47056
+    - m_Data: 47058
+    - m_Data: 47060
+    - m_Data: 47062
+    - m_Data: 47064
+    - m_Data: 47066
+    - m_Data: 47068
+    - m_Data: 47070
+    - m_Data: 47072
+    - m_Data: 47074
+    - m_Data: 47076
+    - m_Data: 47078
+    - m_Data: 47080
+    - m_Data: 47082
+    - m_Data: 47084
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -768,24 +763,27 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 46906
-    - m_Data: 46908
-    - m_Data: 46912
-    - m_Data: 46914
-    - m_Data: 46922
-    - m_Data: 46924
-    - m_Data: 46926
-    - m_Data: 46928
-    - m_Data: 46930
-    - m_Data: 46932
-    - m_Data: 46934
-    - m_Data: 46936
-    - m_Data: 46938
-    - m_Data: 47336
-    - m_Data: 48106
-    - m_Data: 58058
-    - m_Data: 58064
-    - m_Data: 58066
+    - m_Data: 47050
+    - m_Data: 47052
+    - m_Data: 47054
+    - m_Data: 47056
+    - m_Data: 47058
+    - m_Data: 47060
+    - m_Data: 47062
+    - m_Data: 47064
+    - m_Data: 47066
+    - m_Data: 47068
+    - m_Data: 47070
+    - m_Data: 47072
+    - m_Data: 47074
+    - m_Data: 47076
+    - m_Data: 47078
+    - m_Data: 47080
+    - m_Data: 47082
+    - m_Data: 47478
+    - m_Data: 48214
+    - m_Data: 48216
+    - m_Data: 48218
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1487,9 +1485,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 844.8943, y: -1251.7426, z: -712.3417}
+    m_Target: {x: 32.874565, y: -29.816301, z: -67.09349}
     speed: 2
-    m_Value: {x: 844.8943, y: -1251.7426, z: -712.3417}
+    m_Value: {x: 32.874565, y: -29.816301, z: -67.09349}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1535,20 +1533,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.14894056, y: 0.8416873, z: -0.2922654, w: 0.42894384}
+    m_Target: {x: -0.06464315, y: -0.914082, z: 0.16125284, w: -0.3664836}
     speed: 2
-    m_Value: {x: 0.15102549, y: 0.83942145, z: -0.293738, w: 0.43160284}
+    m_Value: {x: -0.0652764, y: -0.9134304, z: 0.16226836, w: -0.36749527}
   m_Size:
-    m_Target: 1173.4738
+    m_Target: 194.39928
     speed: 2
-    m_Value: 1173.4738
+    m_Value: 203.55945
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.1840998
+    m_SpeedNormalized: 0.5899999
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
