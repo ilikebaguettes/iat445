@@ -1,31 +1,40 @@
+using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerScaler : MonoBehaviour
 {
+    public List<GameObject> objectsToScale;
+    
     public float scaleDuration = 5.0f;
     public Vector3 targetScale = new Vector3(2f, 2f, 2f);
 
-    private Coroutine scaleCoroutine;
+    //private Coroutine scaleCoroutine;
 
     public void StartScaling()
     {
-        if(scaleCoroutine != null) StopCoroutine(scaleCoroutine);
-        scaleCoroutine = StartCoroutine(ScaleOverTime(targetScale, scaleDuration));
+        foreach (GameObject obj in objectsToScale)
+        {
+            //if (scaleCoroutine != null) StopCoroutine(scaleCoroutine);
+            //scaleCoroutine =
+            StartCoroutine(ScaleOverTime(obj, targetScale, scaleDuration));
+        }
     }
 
-    IEnumerator ScaleOverTime(Vector3 target, float duration)
+    IEnumerator ScaleOverTime(GameObject obj, Vector3 target, float duration)
     {
-        Vector3 startScale = transform.localScale;
+        if (obj == null) yield break;
+        Vector3 startScale = obj.transform.localScale;
         float time = 0;
 
         while (time < duration)
         {
-            transform.localScale = Vector3.Lerp(startScale, target, time/duration);
+            obj.transform.localScale = Vector3.Lerp(startScale, target, time/duration);
             time += Time.deltaTime;
             yield return null;
         }
 
-        transform.localScale = target;
+        obj.transform.localScale = target;
     } 
 }

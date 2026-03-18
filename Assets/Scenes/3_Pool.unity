@@ -968,6 +968,22 @@ PrefabInstance:
       propertyPath: m_RenderPostProcessing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 937590820635081148, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 937590820635081148, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 937590820635081148, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 937590820635081148, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1644703820982035308, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AllowHoveredActivate
       value: 1
@@ -1173,6 +1189,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7917674758246323947, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917674758246323947, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917674758246323947, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917674758246323947, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
@@ -1284,8 +1312,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2032a801cfc9d447ab1771c0902457c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScaler
+  objectsToScale:
+  - {fileID: 53206905}
+  - {fileID: 1271995099}
   scaleDuration: 5
-  targetScale: {x: 0.001, y: 0.001, z: 0.001}
+  targetScale: {x: 1, y: 1, z: 1}
 --- !u!43 &98301537
 Mesh:
   m_ObjectHideFlags: 0
@@ -2322,6 +2353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectObject
   SceneNum: 1
+  scaler: {fileID: 53206906}
 --- !u!54 &428587024
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3220,6 +3252,7 @@ GameObject:
   - component: {fileID: 846763795}
   - component: {fileID: 846763794}
   - component: {fileID: 846763799}
+  - component: {fileID: 846763800}
   - component: {fileID: 846763798}
   m_Layer: 0
   m_Name: PlaceholderObject
@@ -3477,6 +3510,21 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &846763800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846763793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175bd816d420fac448681a7b1df173d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScaleInteraction
+  player: {fileID: 53206905}
+  objScript: {fileID: 846763793}
+  targetScale: {x: 0.001, y: 0.001, z: 0.001}
 --- !u!1 &874397708
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,6 +4402,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &1271995099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3051491437750746931, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+  m_PrefabInstance: {fileID: 53206903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1292466314
 GameObject:
   m_ObjectHideFlags: 0
@@ -5692,6 +5745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectObject
   SceneNum: 1
+  scaler: {fileID: 0}
 --- !u!65 &1731257084
 BoxCollider:
   m_ObjectHideFlags: 0
