@@ -9,8 +9,8 @@ public class DetectObject : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("SceneInteractable"))
         {
-            //ChangeScene();
             ShrinkPlayer();
+            ChangeScene();
         }
     }
 

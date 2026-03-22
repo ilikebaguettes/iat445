@@ -3954,6 +3954,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -23
       objectReference: {fileID: 0}
+    - target: {fileID: 5302184824291981782, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7917674758246323947, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
@@ -3961,6 +3965,10 @@ PrefabInstance:
     - target: {fileID: 7917674758326848207, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: near clip plane
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324439472033582582, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8629926924687228403, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AllowHoveredActivate
@@ -10171,6 +10179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2032a801cfc9d447ab1771c0902457c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScaler
+  objectsToScale: []
   scaleDuration: 5
   targetScale: {x: 0.001, y: 0.001, z: 0.001}
 --- !u!1 &1598111102
@@ -11207,7 +11216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed912a5d06fb0dc4b9107e3f176b486d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChange
-  SceneNum: 3
+  SceneNum: 2
 --- !u!114 &1914138938
 MonoBehaviour:
   m_ObjectHideFlags: 0

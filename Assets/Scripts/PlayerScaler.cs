@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerScaler : MonoBehaviour
 {
     public List<GameObject> objectsToScale;
-    
+
     public float scaleDuration = 5.0f;
     public Vector3 targetScale = new Vector3(2f, 2f, 2f);
 
