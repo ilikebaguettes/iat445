@@ -1,0 +1,12 @@
+# Blender 4.4.3 MTL File: 'public-laundry-psx.blend'
+# www.blender.org
+
+newmtl water-puddle_128
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/jacop/Desktop/PublicLaundry_PSX_v1.0/textures/props/water-puddle_128.png
