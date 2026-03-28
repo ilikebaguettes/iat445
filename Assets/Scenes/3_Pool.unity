@@ -149,7 +149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6984c48aed9a154294088f4265d8478, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.7478
+      value: 6.364
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6984c48aed9a154294088f4265d8478, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3192,7 +3192,7 @@ Transform:
   m_GameObject: {fileID: 428587020}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.64, y: -4.76, z: -0.15413}
+  m_LocalPosition: {x: -2.64, y: -4.21, z: -0.15413}
   m_LocalScale: {x: 9.950606, y: 0.42752105, z: 17.358154}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3210,7 +3210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d40000155741d5d4090b6e156d440c52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectObject
-  SceneNum: 1
+  SceneNum: 4
   scaler: {fileID: 53206906}
 --- !u!54 &428587024
 Rigidbody:
@@ -4510,18 +4510,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 53206906}
-        m_TargetAssemblyTypeName: PlayerScaler, Assembly-CSharp
-        m_MethodName: StartScaling
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 6363861}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -6183,7 +6171,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <i>Shrink</i> down to grab object.
+  m_text: Throw the Item into the pool.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9fb72713462bd34a99acbf23a40dd74, type: 2}
   m_sharedMaterial: {fileID: -4406428672775297824, guid: a9fb72713462bd34a99acbf23a40dd74, type: 2}

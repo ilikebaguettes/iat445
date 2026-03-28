@@ -7,17 +7,26 @@ public class PlayerScaler : MonoBehaviour
 {
     public List<GameObject> objectsToScale;
 
+    //public CharacterController characterController;
+    //private float ogHeight;
+    //private Vector3 ogCenter;
+    //public float newHeight;
+    //public Vector3 newCenter = new Vector3(2f, 2f, 2f);
+
     public float scaleDuration = 5.0f;
     public Vector3 targetScale = new Vector3(2f, 2f, 2f);
 
-    //private Coroutine scaleCoroutine;
-
     public void StartScaling()
     {
+        //characterController = GetComponent<CharacterController>();
+        //ogHeight = characterController.height;
+        //ogCenter = characterController.center;
+
+        //characterController.height = newHeight;
+        //characterController.center = newCenter;
+
         foreach (GameObject obj in objectsToScale)
         {
-            //if (scaleCoroutine != null) StopCoroutine(scaleCoroutine);
-            //scaleCoroutine =
             StartCoroutine(ScaleOverTime(obj, targetScale, scaleDuration));
         }
     }
