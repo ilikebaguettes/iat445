@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.019
@@ -23,8 +23,8 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.1792453, g: 0.17213073, b: 0.120906025, a: 1}
   m_AmbientEquatorColor: {r: 0.41509432, g: 0.41206762, b: 0.33481663, a: 1}
   m_AmbientGroundColor: {r: 0.03669709, g: 0.03773582, b: 0.03542183, a: 1}
-  m_AmbientIntensity: 1
-  m_AmbientMode: 1
+  m_AmbientIntensity: 1.66
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.28484336, g: 0.3008967, b: 0.3490566, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
