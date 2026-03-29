@@ -11254,6 +11254,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 545196711}
+  - component: {fileID: 2043055244}
+  - component: {fileID: 2043055243}
+  - component: {fileID: 2043055245}
   m_Layer: 0
   m_Name: Door_top.002_36
   m_TagString: Untagged
