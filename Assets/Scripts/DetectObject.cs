@@ -1,15 +1,30 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DetectObject : MonoBehaviour
 {
     public int SceneNum;
     public PlayerScaler scaler;
+    public FadeScreen fadeScreen;
+    public GameObject player;
 
-    private void OnCollisionEnter(Collision collision)
+    public Vector3 targetScale = new Vector3(0.5f, 0.5f, 0.5f);
+
+    public Vector3 targetPosition = new Vector3(0f, 2f, 0f);
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("SceneInteractable"))
+        Debug.Log("collision detected");
+
+        if (other.gameObject.CompareTag("SceneInteractable"))
         {
             ShrinkPlayer();
+            FadeScreen();
+            StartCoroutine(DelayMoveCoroutine(4.5f));
+        }
+        if (other.gameObject.CompareTag("Player"))
+        {
             ChangeScene();
         }
     }
@@ -19,8 +34,32 @@ public class DetectObject : MonoBehaviour
         SceneTransitionManager.singleton.GoToSceneAsync(SceneNum);
     }
 
+    public void MovePlayer()
+    {
+        player.transform.position = targetPosition;
+    }
+
+    public void FadeScreen()
+    {
+        fadeScreen.FadeOut();
+    }
+
     public void ShrinkPlayer()
     {
+        scaler.targetScale = targetScale;
         scaler.StartScaling();
+    }
+
+    IEnumerator DelayMoveCoroutine(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+        MovePlayer();
+    }
+
+    public void DelayedMove()
+    {
+        ShrinkPlayer();
+        FadeScreen();
+        StartCoroutine(DelayMoveCoroutine(4.5f));
     }
 }
