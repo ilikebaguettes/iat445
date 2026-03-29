@@ -15,14 +15,14 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
+  m_FogColor: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.013
+  m_FogDensity: 0.019
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.26415092, g: 0.24211307, b: 0.10341757, a: 1}
-  m_AmbientEquatorColor: {r: 0.6603774, g: 0.6364368, b: 0.5762727, a: 1}
-  m_AmbientGroundColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
+  m_AmbientSkyColor: {r: 0.1792453, g: 0.17213073, b: 0.120906025, a: 1}
+  m_AmbientEquatorColor: {r: 0.41509432, g: 0.41206762, b: 0.33481663, a: 1}
+  m_AmbientGroundColor: {r: 0.03669709, g: 0.03773582, b: 0.03542183, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.28484336, g: 0.3008967, b: 0.3490566, a: 1}
@@ -35,7 +35,7 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.776
+  m_ReflectionIntensity: 0.46
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_UseRadianceAmbientProbe: 0
@@ -566,7 +566,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1983782871}
+  m_Mesh: {fileID: 478910616}
 --- !u!33 &7007301
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -4674,7 +4674,7 @@ Light:
   serializedVersion: 12
   m_Type: 2
   m_Color: {r: 0.34901962, g: 0.35686275, b: 0.3137255, a: 1}
-  m_Intensity: 8.2
+  m_Intensity: 19.4
   m_Range: 73.7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4717,7 +4717,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 11854
+  m_ColorTemperature: 6180
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -7025,7 +7025,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 478910616}
+  m_Mesh: {fileID: 1488640630}
 --- !u!33 &317491676
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -11254,9 +11254,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 545196711}
-  - component: {fileID: 2043055244}
-  - component: {fileID: 2043055243}
-  - component: {fileID: 2043055245}
   m_Layer: 0
   m_Name: Door_top.002_36
   m_TagString: Untagged
@@ -12201,7 +12198,7 @@ Light:
   serializedVersion: 12
   m_Type: 2
   m_Color: {r: 0.34901962, g: 0.35686275, b: 0.3137255, a: 1}
-  m_Intensity: 18.3
+  m_Intensity: 12.7
   m_Range: 73.7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -12244,7 +12241,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 11854
+  m_ColorTemperature: 5773
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -25352,7 +25349,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5888
+  m_ColorTemperature: 5830
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -32879,7 +32876,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1488640630}
+  m_Mesh: {fileID: 540943737}
 --- !u!33 &1796123793
 MeshFilter:
   m_ObjectHideFlags: 10
