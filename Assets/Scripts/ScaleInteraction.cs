@@ -11,12 +11,12 @@ public class ScaleInteraction : MonoBehaviour
     {
         if (!IsScaleApproxiamtely(player.transform.localScale, targetScale))
         {
-            Debug.Log("Player scale is NOT the target scale: " + player.transform.localScale);
+            //Debug.Log("Player scale is NOT the target scale: " + player.transform.localScale);
             objScript.GetComponent<XRGrabInteractable>().enabled = false;
         }
         else
         {
-            Debug.Log("Player scale IS the target scale.");
+            //Debug.Log("Player scale IS the target scale.");
             objScript.GetComponent<XRGrabInteractable>().enabled = true;
         }
     }
