@@ -8,11 +8,12 @@ public class SocketInteraction : MonoBehaviour
 
     public GameObject leftDoor;
     public GameObject rightDoor;
+    public GameObject doorWall;
 
     void Update()
     {
         // check bool status, if all true execute code
-        if (!(leftDoorAttached == false & rightDoorAttached == false))
+        if (leftDoorAttached == true && rightDoorAttached == true)
         {
             ChangeDoors();
         }
@@ -30,6 +31,9 @@ public class SocketInteraction : MonoBehaviour
 
     public void ChangeDoors()
     {
-        Debug.Log("both doors attached");
+        //Debug.Log("both doors attached");
+        doorWall.SetActive(false);
+        leftDoor.SetActive(false);
+        rightDoor.SetActive(false);
     }
 }

@@ -3131,7 +3131,8 @@ MonoBehaviour:
   scaler: {fileID: 940157932}
   fadeScreen: {fileID: 1618484829}
   player: {fileID: 940157931}
-  targetPosition: {x: -2.6, y: 10.8, z: -0.3}
+  targetScale: {x: 0.5, y: 0.5, z: 0.5}
+  targetPosition: {x: -2.6, y: 15.1, z: -0.3}
 --- !u!1 &503953761
 GameObject:
   m_ObjectHideFlags: 0
