@@ -13,7 +13,7 @@ public class TriggerAreaEvent : MonoBehaviour
 
         if (other.gameObject.CompareTag("Player"))
         {
-            // move door, create nail object
+            // move doors, create nail object
         }
     }
 
