@@ -18,7 +18,7 @@ public class ScaleAudio : MonoBehaviour
     {
         float scale = player.localScale.x;
         float normalized = Mathf.InverseLerp(minScale, maxScale, scale);
-        float pitch = Mathf.Lerp(0.2f, 1f, normalized);
+        float pitch = Mathf.Lerp(0.3f, 1f, normalized);
 
         foreach (AudioSource source in audioSources)
         {
