@@ -44,6 +44,11 @@ public class DetectObject : MonoBehaviour
         fadeScreen.FadeOut();
     }
 
+    public void FadeInScreen()
+    {
+        fadeScreen.FadeIn();
+    }
+
     public void ShrinkPlayer()
     {
         scaler.targetScale = targetScale;
@@ -53,13 +58,15 @@ public class DetectObject : MonoBehaviour
     IEnumerator DelayMoveCoroutine(float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
+        FadeInScreen();
         MovePlayer();
+
     }
 
     public void DelayedMove()
     {
         ShrinkPlayer();
         FadeScreen();
-        StartCoroutine(DelayMoveCoroutine(4.5f));
+        StartCoroutine(DelayMoveCoroutine(5f));
     }
 }
